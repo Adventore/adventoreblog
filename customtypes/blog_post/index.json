@@ -12,7 +12,7 @@
           "label": "UID"
         }
       },
-      "Title": {
+      "title": {
         "type": "StructuredText",
         "config": {
           "label": "Title",

@@ -22,7 +22,7 @@ export const PostCard = ({
       <div className="flex flex-col flex-grow ml-6">
         <div>
           <h3 className="text-xl font-semibold text-gray-800 dark:text-gray-300 group-hover:text-blue-600 dark:group-hover:text-blue-500">
-            <PrismicText field={data.Title} />
+            <PrismicText field={data.title} />
           </h3>
           <p className="mt-3 text-gray-600 dark:text-gray-400">
             <RichText field={data.description} />
